@@ -1,0 +1,53 @@
+
+  body { background: url(https://oir.mobi/uploads/posts/2020-01/1579143949_3-3.jpg); }
+
+  .photo {padding-left: 230px;}
+
+  .levo {padding-bottom: 1000px;}
+
+  .list {
+    padding-left: 40px;
+    font-family: Comic Sans MS, Comic Sans, cursive;}
+  .centr {
+    text-align: center;
+  }
+  .photo .centr{
+    padding-right: 400px;
+  }
+  .story .centr{
+    padding-right: 150px
+  }
+  .fact .centr{
+    padding-right: 150px
+  }
+  .storytext{
+    padding-right: 200px
+  }
+  .storytext{
+    font-size: 18px
+  }
+  .storytext{
+    font-family:DejaVu Sans Mono, monospace
+  }
+
+  .fact{
+    font-size: 18px;
+    font-family: DejaVu Sans Mono, monospace
+  }
+  @keyframes names{
+     
+      0%   {background-color: red;}
+      25%  {background-color: yellow;}
+      50%  {background-color: blue;}
+      100% {background-color: green;}
+    }
+    
+    .name {
+      width: 250px;
+      height: 100px;
+      background-color: rgb(0, 242, 255);
+      animation-name: names;
+      animation-duration: 6s;
+    }
+  
+
